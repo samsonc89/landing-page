@@ -1,0 +1,14 @@
+*{
+    border: 1px solid blue;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .hero, .cards, .quote, .action, .action-container {
+    display: flex;
+}
+
