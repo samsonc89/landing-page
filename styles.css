@@ -17,8 +17,6 @@ p {
 }
 .header, .hero, .cards, .quote, .action-container {
     display: flex;
-
-
 }
 
 .header, .footer, .hero {
@@ -30,6 +28,10 @@ p {
 .header{
     padding: 10px 120px;
     align-items: center;
+}
+
+.logo{
+    font-size: 24px;
 }
 
 .footer{
