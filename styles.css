@@ -84,7 +84,7 @@ p {
 }
 
 .information{
-    padding: 30px 140px 80px;
+    padding: 30px 180px 80px;
 
 }
 .information-header{
@@ -103,6 +103,7 @@ p {
 
 .cards{
     gap: 20px;
+    justify-content: space-between;
 }
 
 .quote {
