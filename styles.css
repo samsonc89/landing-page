@@ -109,13 +109,20 @@ p {
 .quote {
     background-color: #E5e7eb;
     justify-content: center;
-    
+    flex-direction: column;
+    padding: 80px 240px;
 }
 
 .quote-text{
     font-size: 36px;   
     font-style: italic;
     font-weight: lighter;
+}
+
+.quote-author{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: end;
 }
 
 .action-container, button{
