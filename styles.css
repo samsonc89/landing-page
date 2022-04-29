@@ -17,7 +17,7 @@ p {
     text-align: start;
 
 }
-.header, .hero, .cards, .quote, .action-container {
+.header, .hero, .cards, .quote, .action-container, .footer{
     display: flex;
 }
 
@@ -25,6 +25,10 @@ p {
     background-color: #1F2937;
     color: #F9FAF8;
     justify-content: space-between;
+}
+
+.header, .footer {
+    height: 72px;
 }
 
 .header{
@@ -159,5 +163,6 @@ h4{
     margin: 0;
 }
 .footer{
-    margin-top: auto;
+    align-items: center;
+    justify-content: center;
 }
