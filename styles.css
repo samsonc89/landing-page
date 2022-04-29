@@ -84,13 +84,21 @@ p {
 }
 
 .information{
-    padding: 30px 140px;
+    padding: 30px 140px 80px;
 
 }
 .information-header{
     font-size: 36px;
     font-weight: bold;
-    color:#1F2937
+    color:#1F2937;
+    margin-bottom: 20px;
+}
+
+.info-img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(111, 111, 255);
+    border-radius: 10px;
 }
 
 .cards{
