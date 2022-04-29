@@ -14,6 +14,8 @@ justify-content: center;
 
 p {
     margin: 0;
+    text-align: start;
+
 }
 .header, .hero, .cards, .quote, .action-container {
     display: flex;
@@ -135,7 +137,7 @@ p {
     background-color: #3882f6;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 70px;
+    padding: 20px 100px;
     border-radius: 5px;
 }
 
